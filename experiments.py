@@ -84,6 +84,7 @@ def send_control_command(intention):
     print(f"Sending command: {command}")
     # Here, you would integrate with the actual device API or interface
     # For simulation purpose, we would just print the command
+send_control_command(intention)
 
 
 
@@ -111,7 +112,7 @@ def plot_PSD():
     plt.ylabel('PSD')
     plt.savefig('Synethetic PSD')
     plt.show()
-plot_PSD()
+
 
 
 
